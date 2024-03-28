@@ -103,20 +103,17 @@ nav .nav_list{
 }
 
 .logo-header{
-    width: 200px;
+    width: 300px;
 }
 
 .home{
-    background-image: linear-gradient(to bottom, rgba(0, 128, 0, 0.247),rgba(144, 238, 144, 0.123), white);
+    background-image: linear-gradient(to bottom, rgba(0, 37, 0, 0.308),rgba(144, 238, 144, 0.123), white);
     animation: logo-animate 2s ease-in;
     height: 100vh;
 }
 
 .home h1{
-    color: var(--amareloArylide);
-}
-.home p{
-    color: var(--grafite);
+    color: rgb(2, 63, 2);
 }
 
 .container-wrap{
@@ -169,8 +166,19 @@ nav .nav_list{
 }
 
 
-
-
+.contact-wrap{
+    height: 50vh;
+    width: 80%;
+}
+.social-midia{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    font-size: larger;
+}
 
 footer{
     width: 100%;
